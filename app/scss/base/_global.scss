@@ -1,0 +1,109 @@
+body {
+  font-family: "Lexend", sans-serif;
+  color: #626687;
+  background-color: #E5E5E5;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.title {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  // text-align: center;
+  // text-transform: capitalize;
+  color: #1b1c57;
+}
+
+.subtitle {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  // text-transform: capitalize;
+  color: #f59e0b;
+}
+
+// .prime-btn {
+//   font-size: 18px;
+//   color: $white;
+//   background-color: $activeElement;
+//   border-radius: 5px;
+//   padding: 12px 32px;
+//   line-height: 1.3;
+//   transition: color 0.3s, box-shadow 0.3s, background-color 0.3s;
+
+//   &:focus {
+//     background-color: $fonIcon;
+//     color: $activeElement;
+//     box-shadow: 0 0 0 2px rgba($activeElement, 0.7);
+//   }
+
+//   &:hover {
+//     background-color: $white;
+//     color: $activeElement;
+//     box-shadow: 0 0 0 2px rgba($activeElement, 0.7);
+//   }
+
+//   &:active {
+//     box-shadow: none;
+//     background-color: $fonIcon;
+//   }
+// }
+
+// .prime-link {
+//   display: inline-block;
+//   font-size: 18px;
+//   color: $white;
+//   background-color: $activeElement;
+//   border-radius: 5px;
+//   padding: 12px 34px;
+//   line-height: 1.3;
+//   transition: color 0.3s, box-shadow 0.3s, background-color 0.3s;
+
+//   &:focus {
+//     background-color: $fonIcon;
+//     color: $activeElement;
+//     box-shadow: 0 0 0 2px rgba($activeElement, 0.7);
+//   }
+
+//   &:hover {
+//     background-color: $white;
+//     color: $activeElement;
+//     box-shadow: 0 0 0 2px rgba($activeElement, 0.7);
+//   }
+
+//   &:active {
+//     box-shadow: none;
+//     background-color: $fonIcon;
+//   }
+// }
